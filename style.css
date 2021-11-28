@@ -24,11 +24,26 @@ h1 {
   align-items: center;
   width: 57%;
   justify-content: space-evenly;
-  font-size: 1.5rem;
 }
 
 .countdown-container .big.time {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
+}
+
+/* responsive */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .countdown-container {
+    width: 100%;
+  }
+  .countdown-container .time {
+    font-size: 1.5rem;
+  }
+  .countdown-container .time span {
+    font-size: 1.1rem;
+  }
 }
